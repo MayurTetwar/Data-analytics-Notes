@@ -1,0 +1,56 @@
+Note:- 
+	1. This Excel File to perform Power Query i.e., Data Pre-Processor
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data Modeling:- 
+	1. The Main table, which contains relation between two features called "Fact Table".(Tall and narrow table)
+	2. Other tables that give information about a feature called a dimension table. (Short and wide)
+	3. Star schema :- In this one center fact table and around dimension table make star schema and this all stuff called as Model .
+	4. Snow Flake :- The another table which give info about dimension table not connect to fact table.
+	5. Measures :- For calculate some feature (for overall and some group).
+	6. Slicer/Filter :- for selection of group and get values only for this group.
+	7. ETL (Extract transform load).
+	8 Batch process :- The process run at specific time when some condition is made called batch process.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pivot table and DAX (Data Analysis Expressions):- 
+	1.Create measure (filter then calculate) for overall calulation and this are also workable for individual tuple.  To create measure right click on table name 	in Data section -> select new .measure -> Add DAX formula and save.  
+	2. While practicing on DAX use Table visual .
+	3. Divide , If , DistinctCount, Min, Max,Median , CountAll, Count, Average 
+	4. The measure must produce only single value 
+	5. Calculate -> calculate + filter handling (Low Box shipment count = CALCULATE([Shipment Count],sales[Boxes]<50)
+		Or We can use this :- Low Box shipment count = [Shipment Count](sales[Boxes]<50)
+	6. We Can add new columns in table similar in excel and like measures.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to pick the "perfect" chart for your situation in Power BI? 
+	Explain:- https://chandoo.org/wp/powerbi-when-to-use-which-chart/
+	BI Power:- https://app.powerbi.com/view?r=eyJrIjoiN2JkNmEzMjQtYWI5MS00ODdiLTk4YmEtODRlMjE5NmIwZDEzIiwidCI6IjUzNTA4ZDUyLWQxYjAtNDliMC1iNGJhLTM1MzNjMTI0OWEwMSJ9&pageName=ReportSection95c72e870b2e6c684364
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to create tooltip :- 
+	Step 1: Create the main visual
+	Step 2: - Add a new page 
+		- Click on the “format” options
+		- Go to “Canvas settings”
+		- Set the page type as “tooltip” from “16:9”
+		- On this “new” page, just add whatever visuals, images & textboxes you want to show .
+	Step 3: - Link tooltip page to main visual (Go to Main page)
+		- Go to “format” and “general”
+		- Select the “tooltip” area.
+		- Set the type to “Report page”
+		- Select the page from the list of pages.
+	Done !! 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
