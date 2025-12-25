@@ -1,0 +1,65 @@
+C:\Users\sky>python
+Python 3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+  File "<stdin>", line 1
+    ♦
+    ^
+SyntaxError: invalid non-printable character U+0004
+>>> ^D^D^D
+  File "<stdin>", line 1
+    ♦♦♦
+    ^
+SyntaxError: invalid non-printable character U+0004
+>>> print("kol")
+kol
+>>> scr=20
+>>> src
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'src' is not defined
+>>> print(src)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'src' is not defined
+>>> scr
+20
+>>> print(scr)
+20
+>>> import os
+>>> os.getcwd()
+'C:\\Users\\sky'
+>>> for ch in "Mayur":
+... print(ch)
+  File "<stdin>", line 2
+    print(ch)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> print(ch)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ch' is not defined. Did you mean: 'chr'?
+>>> for ch in "Mayur":
+...     print(ch)
+...
+M
+a
+y
+u
+r
+>>> import sys
+>>> sys.platform
+'win32'
+>>> sys.platform()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> from importlib from reload
+  File "<stdin>", line 1
+    from importlib from reload
+                   ^^^^
+SyntaxError: invalid syntax
+>>> from importlib import reload
+>>> reload(os)
+<module 'os' (frozen)>
+>>>

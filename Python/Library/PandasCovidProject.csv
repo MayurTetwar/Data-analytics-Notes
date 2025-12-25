@@ -1,0 +1,188 @@
+WHO Region,Country/Region,Confirmed,TapakGye,Recovered
+Africa,Algeria,27973,1163,18837
+Africa,Angola,950,41,242
+Africa,Benin,1770,35,1036
+Africa,Botswana,739,2,63
+Africa,Burkina Faso,1100,53,926
+Africa,Burundi,378,1,301
+Africa,Cabo Verde,2328,22,1550
+Africa,Cameroon,17110,391,14539
+Africa,Central African Republic,4599,59,1546
+Africa,Chad,922,75,810
+Africa,Comoros,354,7,328
+Africa,Congo (Brazzaville),3200,54,829
+Africa,Congo (Kinshasa),8844,208,5700
+Africa,Cote d'Ivoire,15655,96,10361
+Africa,Equatorial Guinea,3071,51,842
+Africa,Eritrea,265,0,191
+Africa,Eswatini,2316,34,1025
+Africa,Ethiopia,14547,228,6386
+Africa,Gabon,7189,49,4682
+Africa,Gambia,326,8,66
+Africa,Ghana,33624,168,29801
+Africa,Guinea,7055,45,6257
+Africa,Guinea-Bissau,1954,26,803
+Africa,Kenya,17975,285,7833
+Africa,Lesotho,505,12,128
+Africa,Liberia,1167,72,646
+Africa,Madagascar,9690,91,6260
+Africa,Malawi,3664,99,1645
+Africa,Mali,2513,124,1913
+Africa,Mauritania,6208,156,4653
+Africa,Mauritius,344,10,332
+Africa,Mozambique,1701,11,0
+Africa,Namibia,1843,8,101
+Africa,Niger,1132,69,1027
+Africa,Nigeria,41180,860,18203
+Africa,Rwanda,1879,5,975
+Africa,Sao Tome and Principe,865,14,734
+Africa,Senegal,9764,194,6477
+Africa,Seychelles,114,0,39
+Africa,Sierra Leone,1783,66,1317
+Africa,South Africa,452529,7067,274925
+Africa,South Sudan,2305,46,1175
+Africa,Tanzania,509,21,183
+Africa,Togo,874,18,607
+Africa,Uganda,1128,2,986
+Africa,Western Sahara,10,1,8
+Africa,Zambia,4552,140,2815
+Africa,Zimbabwe,2704,36,542
+Americas,Antigua and Barbuda,86,3,65
+Americas,Argentina,167416,3059,72575
+Americas,Bahamas,382,11,91
+Americas,Barbados,110,7,94
+Americas,Belize,48,2,26
+Americas,Bolivia,71181,2647,21478
+Americas,Brazil,2442375,87618,1846641
+Americas,Canada,116458,8944,0
+Americas,Chile,347923,9187,319954
+Americas,Colombia,257101,8777,131161
+Americas,Costa Rica,15841,115,3824
+Americas,Cuba,2532,87,2351
+Americas,Dominica,18,0,18
+Americas,Dominican Republic,64156,1083,30204
+Americas,Ecuador,81161,5532,34896
+Americas,El Salvador,15035,408,7778
+Americas,Grenada,23,0,23
+Americas,Guatemala,45309,1761,32455
+Americas,Guyana,389,20,181
+Americas,Haiti,7340,158,4365
+Americas,Honduras,39741,1166,5039
+Americas,Jamaica,853,10,714
+Americas,Mexico,395489,44022,303810
+Americas,Nicaragua,3439,108,2492
+Americas,Panama,61442,1322,35086
+Americas,Paraguay,4548,43,2905
+Americas,Peru,389717,18418,272547
+Americas,Saint Kitts and Nevis,17,0,15
+Americas,Saint Lucia,24,0,22
+Americas,Saint Vincent and the Grenadines,52,0,39
+Americas,Suriname,1483,24,925
+Americas,Trinidad and Tobago,148,8,128
+Americas,US,4290259,148011,1325804
+Americas,Uruguay,1202,35,951
+Americas,Venezuela,15988,146,9959
+Eastern Mediterranean,Afghanistan,36263,1269,25198
+Eastern Mediterranean,Bahrain,39482,141,36110
+Eastern Mediterranean,Djibouti,5059,58,4977
+Eastern Mediterranean,Egypt,92482,4652,34838
+Eastern Mediterranean,Iran,293606,15912,255144
+Eastern Mediterranean,Iraq,112585,4458,77144
+Eastern Mediterranean,Jordan,1176,11,1041
+Eastern Mediterranean,Kuwait,64379,438,55057
+Eastern Mediterranean,Lebanon,3882,51,1709
+Eastern Mediterranean,Libya,2827,64,577
+Eastern Mediterranean,Morocco,20887,316,16553
+Eastern Mediterranean,Oman,77058,393,57028
+Eastern Mediterranean,Pakistan,274289,5842,241026
+Eastern Mediterranean,Qatar,109597,165,106328
+Eastern Mediterranean,Saudi Arabia,268934,2760,222936
+Eastern Mediterranean,Somalia,3196,93,1543
+Eastern Mediterranean,Sudan,11424,720,5939
+Eastern Mediterranean,Syria,674,40,0
+Eastern Mediterranean,Tunisia,1455,50,1157
+Eastern Mediterranean,United Arab Emirates,59177,345,52510
+Eastern Mediterranean,West Bank and Gaza,10621,78,3752
+Eastern Mediterranean,Yemen,1691,483,833
+Europe,Albania,4880,144,2745
+Europe,Andorra,907,52,803
+Europe,Armenia,37390,711,26665
+Europe,Austria,20558,713,18246
+Europe,Azerbaijan,30446,423,23242
+Europe,Belarus,67251,538,60492
+Europe,Belgium,66428,9822,17452
+Europe,Bosnia and Herzegovina,10498,294,4930
+Europe,Bulgaria,10621,347,5585
+Europe,Croatia,4881,139,3936
+Europe,Cyprus,1060,19,852
+Europe,Czechia,15516,373,11428
+Europe,Denmark,13761,613,12605
+Europe,Estonia,2034,69,1923
+Europe,Finland,7398,329,6920
+Europe,France,220352,30212,81212
+Europe,Georgia,1137,16,922
+Europe,Germany,207112,9125,190314
+Europe,Greece,4227,202,1374
+Europe,Greenland,14,0,13
+Europe,Holy See,12,0,12
+Europe,Hungary,4448,596,3329
+Europe,Iceland,1854,10,1823
+Europe,Ireland,25892,1764,23364
+Europe,Israel,63985,474,27133
+Europe,Italy,246286,35112,198593
+Europe,Kazakhstan,84648,585,54404
+Europe,Kosovo,7413,185,4027
+Europe,Kyrgyzstan,33296,1301,21205
+Europe,Latvia,1219,31,1045
+Europe,Liechtenstein,86,1,81
+Europe,Lithuania,2019,80,1620
+Europe,Luxembourg,6321,112,4825
+Europe,Malta,701,9,665
+Europe,Moldova,23154,748,16154
+Europe,Monaco,116,4,104
+Europe,Montenegro,2893,45,809
+Europe,Netherlands,53413,6160,189
+Europe,North Macedonia,10213,466,5564
+Europe,Norway,9132,255,8752
+Europe,Poland,43402,1676,32856
+Europe,Portugal,50299,1719,35375
+Europe,Romania,45902,2206,25794
+Europe,Russia,816680,13334,602249
+Europe,San Marino,699,42,657
+Europe,Serbia,24141,543,0
+Europe,Slovakia,2181,28,1616
+Europe,Slovenia,2087,116,1733
+Europe,Spain,272421,28432,150376
+Europe,Sweden,79395,5700,0
+Europe,Switzerland,34477,1978,30900
+Europe,Tajikistan,7235,60,6028
+Europe,Turkey,227019,5630,210469
+Europe,Ukraine,67096,1636,37202
+Europe,United Kingdom,301708,45844,1437
+Europe,Uzbekistan,21209,121,11674
+South-East Asia,Bangladesh,226225,2965,125683
+South-East Asia,Bhutan,99,0,86
+South-East Asia,Burma,350,6,292
+South-East Asia,India,1480073,33408,951166
+South-East Asia,Indonesia,100303,4838,58173
+South-East Asia,Maldives,3369,15,2547
+South-East Asia,Nepal,18752,48,13754
+South-East Asia,Sri Lanka,2805,11,2121
+South-East Asia,Thailand,3297,58,3111
+South-East Asia,Timor-Leste,24,0,0
+Western Pacific,Australia,15303,167,9311
+Western Pacific,Brunei,141,3,138
+Western Pacific,Cambodia,226,0,147
+Western Pacific,China,86783,4656,78869
+Western Pacific,Fiji,27,0,18
+Western Pacific,Japan,31142,998,21970
+Western Pacific,Laos,20,0,19
+Western Pacific,Malaysia,8904,124,8601
+Western Pacific,Mongolia,289,0,222
+Western Pacific,New Zealand,1557,22,1514
+Western Pacific,Papua New Guinea,62,0,11
+Western Pacific,Philippines,82040,1945,26446
+Western Pacific,Singapore,50838,27,45692
+Western Pacific,South Korea,14203,300,13007
+Western Pacific,Taiwan*,462,7,440
+Western Pacific,Vietnam,431,0,365

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Note:- 
 	1. This Excel File to perform Power Query i.e., Data Pre-Processor
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -54,3 +55,118 @@ How to create tooltip :-
 
 
 
+=======
+Note:- 
+	1. This Excel File to perform Power Query i.e., Data Pre-Processor
+	2. To concatenate value with string:- SUM('Current'[current.temp_c])&" °C"
+	3. To get Data components(months,day name,etc) into separate columns use power Query under "Add Columns" bar use Data button.
+	4. Measure Selector means getting visual for selected metric/Measure/kpi and Slicer used for selecting data from particular column.
+		use:- "modeling" -> "new paramter" -> "field" -> (use like normal measure)
+	5. To Change unit of values in table use select "specific column" then Display unit -> (Ex., 12,345 -> 12k)
+	6. While using bar chart use Data labels.....
+	7. Use filtering.
+	8. Use slicer and bookmark for more dynamic and to generate more insight.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Way:- 
+	1. ETL (Extract-Transform-Load)
+		1. Load Dataset
+		2. Use Power Query For Data mining and Data Cleaning (Remove unwanted columns, Duplicate, Format, Conditional Column, Set Date Format)
+		3. Merge and Append tables (If required)
+	2. Data Modelling 
+	3. DAX (Data Analysis and Expressions)
+	4. Use visual....
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Important Sections That Must Be In Report:- 
+	1. Page Layout size:- 1920 x 1080 px	
+	2. Quick Summery (KPI, Matrics)
+	3. Tables must be on right side
+	4. Add Tables in report with conditional formatting 
+	5. Add (bookmarks + Selector and image through which you can display your bookmarks ) and measure selector for Dynamic layout	
+	6. Check which are things are stored with bookmark
+	7. For more information add tooltip
+	8. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data Modeling:- 
+	1. The Main table, which contains relation between two features called "Fact Table".(Tall and narrow table)
+	2. Other tables that give information about a feature called a dimension table. (Short and wide)
+	3. Star schema :- In this one center fact table and around dimension table make star schema and this all stuff called as Model .
+	4. Snow Flake :- The another table which give info about dimension table not connect to fact table.
+	5. Measures :- For calculate some feature (for overall and some group).
+	6. Slicer/Filter :- for selection of group and get values only for this group.
+	7. ETL (Extract transform load).
+	8 Batch process :- The process run at specific time when some condition is made called batch process.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pivot table and DAX (Data Analysis Expressions):- 
+	Note:-  1. Calculated Column and Measure are different.
+	 	2. most_order_prodect_name = TOPN(1,ALL(Products[productName]),[TotalQty],DESC)
+	1. Create measure (filter then calculate) for overall calculation and this are also workable for individual tuple.  
+	   To create measure right click on table name 	in Data section -> select new .measure -> Add DAX formula and save.  
+	2. While practicing on DAX use Table visual .
+	3. Divide, DistinctCount, Min, Max, Median, CountAll, Count, Average , COUNTROWS, weekday.
+	4. Calculate -> calculate + filter handling (Low Box shipment count = CALCULATE([Shipment Count],sales[Boxes]<50)
+		Or We can use this :- Low Box shipment count = [Shipment Count](sales[Boxes]<50)
+	5. SUMMARIZE :- It groups rows and lets you create aggregated columns.
+	5  . We Can add new columns in table similar in excel and like measures.
+	6. Evaluation Context:- Means filtering the entire report on certain value.
+	7. IN :- Similar to in operator in SQL.
+	8. If :- it used only scaler values i.e. such measures that return only single value.( AND(EX1,EX2) and OR(EXP1,EXP2))
+	9. ALL() :- 
+		To get all rows of particular column from table (like formula required table so, use all(product['name']))  
+		Remove ALL filters Ex:- Total Sales (All) =
+		CALCULATE(SUM(Sales[Amount]),ALL(Sales)) -- Ignores all filters on Sales table (Useful for calculating % of total) 
+	10. ALLEXCEPT() — Remove filters except some columns
+		Sales % of Product =DIVIDE(SUM(Sales[Amount]),CALCULATE(SUM(Sales[Amount]), ALLEXCEPT(Sales, Sales[Product])))-- Removes all filters except Product
+	11. Date:- 
+		A. TOTALYTD():- Add all values from 1 January up to the selected date.
+		B. TOTALMTD():- Add all values from 1st of this month to current date.
+		C. DATEADD():- Same number of dates shifted back/forward (For Continue dates only!!)
+	12. Rolling Days:-
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How to pick the "perfect" chart for your situation in Power BI? 
+	Explain 1:- https://chandoo.org/wp/powerbi-when-to-use-which-chart/
+		2:- https://www.atlassian.com/data/charts/how-to-choose-data-visualization
+	BI Power:- https://app.powerbi.com/view?r=eyJrIjoiN2JkNmEzMjQtYWI5MS00ODdiLTk4YmEtODRlMjE5NmIwZDEzIiwidCI6IjUzNTA4ZDUyLWQxYjAtNDliMC1iNGJhLTM1MzNjMTI0OWEwMSJ9&pageName=ReportSection95c72e870b2e6c684364
+	
+Communication Tips :- https://insideainews.com/2018/03/28/data-scientists-guide-communicating-results/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How to create tooltip :- 
+	Step 1: Create the main visual
+	Step 2: - Add a new page 
+		- Click on the “format” options
+		- Go to “Canvas settings”
+		- Set the page type as “tooltip” from “16:9”
+		- On this “new” page, just add whatever visuals, images & textboxes you want to show .
+	Step 3: - Link tooltip page to main visual (Go to Main page)
+		- Go to “format” and “general”
+		- Select the “tooltip” area.
+		- Set the type to “Report page”
+		- Select the page from the list of pages.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Iframe :- <iframe title="Clasic_Model" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTNhOGE0ZjUtZTg0Zi00NWUwLWI5ZWItYjEyZDk1ZDNjYTc2IiwidCI6ImJhNGRhNDJmLWI4M2ItNGNiNy1hZDM2LTAxNzJkNzZhNzBhNyJ9" frameborder="0" allowFullScreen="true"></iframe>
+Link :- https://app.powerbi.com/view?r=eyJrIjoiZTNhOGE0ZjUtZTg0Zi00NWUwLWI5ZWItYjEyZDk1ZDNjYTc2IiwidCI6ImJhNGRhNDJmLWI4M2ItNGNiNy1hZDM2LTAxNzJkNzZhNzBhNyJ9
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 82b3bef (Adding more notes)

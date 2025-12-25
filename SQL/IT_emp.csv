@@ -1,0 +1,5 @@
+emp_id,fname,lname,email,dept,salary,hire_date
+1,Mayur,Tetwar,mayur.tetwar@example.com,IT,90000.00,2020-01-15
+3,Arjun,Verma,arjun.verma@example.com,IT,55000.00,2021-06-01
+7,Neha,Desai,neha.desai@example.com,IT,48000.00,2019-05-18
+8,Rahul,Kumar,rahul.kumar@example.com,IT,53000.00,2021-02-14

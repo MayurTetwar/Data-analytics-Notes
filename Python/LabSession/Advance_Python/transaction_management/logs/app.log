@@ -1,0 +1,52 @@
+2025-12-23 19:32:10,463 - WARNING - INVALID Transaction - DEBIT $1330 - Rejected: Insufficient balance (required: 1330, available: 1000) - Balance remains: $1000
+2025-12-23 19:32:10,464 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,464 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,464 - INFO - Transaction #2 - DEBIT $672 - Balance: $328
+2025-12-23 19:32:10,465 - WARNING - INVALID Transaction - DEBIT $1352 - Rejected: Insufficient balance (required: 1352, available: 328) - Balance remains: $328
+2025-12-23 19:32:10,465 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - Transaction #4 - CREDIT $306 - Balance: $634
+2025-12-23 19:32:10,466 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - Transaction #5 - CREDIT $835 - Balance: $1469
+2025-12-23 19:32:10,466 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - Transaction #6 - DEBIT $1251 - Balance: $218
+2025-12-23 19:32:10,466 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,466 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,467 - INFO - Transaction #7 - CREDIT $235 - Balance: $453
+2025-12-23 19:32:10,467 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,467 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,467 - INFO - Transaction #8 - DEBIT $2 - Balance: $451
+2025-12-23 19:32:10,467 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,467 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,467 - INFO - Transaction #9 - DEBIT $220 - Balance: $231
+2025-12-23 19:32:10,467 - WARNING - INVALID Transaction - DEBIT $295 - Rejected: Insufficient balance (required: 295, available: 231) - Balance remains: $231
+2025-12-23 19:32:10,468 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,468 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,468 - INFO - Transaction #11 - CREDIT $376 - Balance: $607
+2025-12-23 19:32:10,469 - WARNING - INVALID Transaction - DEBIT $624 - Rejected: Insufficient balance (required: 624, available: 607) - Balance remains: $607
+2025-12-23 19:32:10,469 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,469 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,469 - INFO - Transaction #13 - DEBIT $22 - Balance: $585
+2025-12-23 19:32:10,470 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,470 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,470 - INFO - Transaction #14 - DEBIT $299 - Balance: $286
+2025-12-23 19:32:10,470 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,470 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,470 - INFO - Transaction #15 - CREDIT $180 - Balance: $466
+2025-12-23 19:32:10,471 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,471 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,471 - INFO - Transaction #16 - CREDIT $951 - Balance: $1417
+2025-12-23 19:32:10,471 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,471 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,471 - INFO - Transaction #17 - CREDIT $287 - Balance: $1704
+2025-12-23 19:32:10,472 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,472 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,473 - INFO - Transaction #18 - CREDIT $291 - Balance: $1995
+2025-12-23 19:32:10,473 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,473 - INFO - File closed: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,473 - INFO - Transaction #19 - DEBIT $1738 - Balance: $257
+2025-12-23 19:32:10,473 - WARNING - INVALID Transaction - DEBIT $1131 - Rejected: Insufficient balance (required: 1131, available: 257) - Balance remains: $257
+2025-12-23 19:32:10,485 - INFO - File opened: transaction_management/data/transactions.csv
+2025-12-23 19:32:10,485 - INFO - File closed: transaction_management/data/transactions.csv
