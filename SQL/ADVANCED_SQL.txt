@@ -1,0 +1,198 @@
+ADVANCED SQL (PostgreSQL) – COMPLETE TOPIC LIST
+==============================================
+
+1. ADVANCED QUERYING CONCEPTS
+-----------------------------
+- Subqueries (correlated & non-correlated)
+- EXISTS, NOT EXISTS
+- ANY, ALL
+- Common Table Expressions (CTE)
+  - WITH
+  - Recursive CTEs
+- LATERAL joins
+- Scalar subqueries
+- Table subqueries
+
+2. ADVANCED JOINS
+-----------------
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL JOIN
+- Self joins
+- Cross joins
+- Semi joins
+- Anti joins
+- Join order & join conditions
+- Joining on expressions
+
+3. WINDOW FUNCTIONS
+-------------------
+- OVER() clause
+- PARTITION BY
+- ORDER BY in window functions
+- Ranking functions
+  - ROW_NUMBER
+  - RANK
+  - DENSE_RANK
+- Aggregate window functions
+  - SUM() OVER
+  - AVG() OVER
+  - COUNT() OVER
+- Offset functions
+  - LAG
+  - LEAD
+- Window frame clauses
+  - ROWS
+  - RANGE
+- Running totals
+- Moving averages
+
+4. ADVANCED AGGREGATIONS
+------------------------
+- GROUP BY advanced usage
+- HAVING
+- GROUPING SETS
+- ROLLUP
+- CUBE
+- Conditional aggregation
+- FILTER clause (PostgreSQL specific)
+
+5. INDEXING (PERFORMANCE CRITICAL)
+----------------------------------
+- B-Tree indexes
+- Hash indexes
+- GIN indexes
+- GiST indexes
+- BRIN indexes
+- Composite indexes
+- Partial indexes
+- Covering indexes (INCLUDE)
+- Index selectivity
+- When indexes are not used
+
+6. QUERY PERFORMANCE & OPTIMIZATION
+-----------------------------------
+- EXPLAIN
+- EXPLAIN ANALYZE
+- Query execution plans
+- Sequential scan vs index scan
+- Cost estimation
+- Query rewriting
+- Avoiding N+1 queries
+- VACUUM & ANALYZE basics
+
+7. TRANSACTIONS & CONCURRENCY
+------------------------------
+- ACID properties
+- BEGIN, COMMIT, ROLLBACK
+- Savepoints
+- Transaction isolation levels
+  - Read Committed
+  - Repeatable Read
+  - Serializable
+- Locks
+  - Row-level locks
+  - Table-level locks
+- Deadlocks
+- SELECT FOR UPDATE
+
+8. CONSTRAINTS & DATA INTEGRITY
+--------------------------------
+- PRIMARY KEY
+- FOREIGN KEY
+- UNIQUE
+- CHECK constraints
+- NOT NULL
+- DEFERRABLE constraints
+- Cascading actions
+
+9. FUNCTIONS & PROCEDURES
+-------------------------
+- User-defined functions (UDF)
+- PL/pgSQL language
+- Stored functions vs stored procedures
+- Returning tables from functions
+- Variables and control flow
+- Exception handling
+
+10. TRIGGERS
+------------
+- BEFORE triggers
+- AFTER triggers
+- Row-level triggers
+- Statement-level triggers
+- Trigger functions
+- Auditing use cases
+- Performance considerations
+
+11. JSON & SEMI-STRUCTURED DATA
+--------------------------------
+- JSON vs JSONB
+- JSON operators (->, ->>, #>>)
+- Querying nested JSON
+- Updating JSON fields
+- Indexing JSONB
+
+12. ADVANCED DATA TYPES
+-----------------------
+- Arrays
+- ENUM types
+- UUID
+- Range types
+- HSTORE
+- Composite types
+
+13. VIEWS & MATERIALIZED VIEWS
+-------------------------------
+- Views vs tables
+- Updatable views
+- Materialized views
+- Refresh strategies
+- Performance trade-offs
+
+14. SECURITY & ACCESS CONTROL
+------------------------------
+- Roles & users
+- GRANT / REVOKE
+- Row-level security (RLS)
+- Schemas
+- Ownership & privileges
+
+15. ADVANCED DDL & SCHEMA DESIGN
+--------------------------------
+- Schema design best practices
+- Table inheritance
+- Partitioning
+  - Range partitioning
+  - List partitioning
+  - Hash partitioning
+- Managing large tables
+
+16. POSTGRESQL INTERNALS (ADVANCED)
+-----------------------------------
+- MVCC (Multi-Version Concurrency Control)
+- WAL (Write Ahead Logging)
+- Autovacuum
+- Background workers
+- System catalogs
+
+17. REAL-WORLD SQL PATTERNS
+---------------------------
+- Top-N per group
+- Gaps and islands
+- Running totals
+- Deduplication
+- Slowly changing dimensions
+- Pivot and unpivot
+- Hierarchical queries
+
+18. DATA MIGRATION & MAINTENANCE
+--------------------------------
+- Bulk inserts
+- COPY command
+- Backup basics
+- Restore basics
+- Schema migration strategies
+
+END OF FILE
