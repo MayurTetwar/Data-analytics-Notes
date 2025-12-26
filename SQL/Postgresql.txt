@@ -30,6 +30,16 @@ Note :-
 	9. COALESCE(a,b,c....) -> this return first non-null value
 	10. current_timestamp -> used to get current time
 	11. nullif(a,b) -> if a==b then null else a	
+	12. Explain:- this used to explain how the query is run ??
+		Ex., explain select * from employee;
+		Output:- Seq Scan on employee  (cost=0.00..1.10 rows=10 width=53)
+		where seq scan means sequential scan (row by row reading)
+		      startup cost:- 0.00 (required to reach at first row this cost)
+		      total cost to fetch all rows:- 1.10
+		      rows:- estimated no. of rows
+		      width:- avg row-size in bytes
+		If we us analyze then it shows real execution time
+	13. How random value is generated?:- used CPU usages (IMP)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 Database: 
 	To get list of DB :- \l
@@ -88,6 +98,13 @@ Sections:
             			cust_id INTEGER NOT NULL, 
             			FOREIGN KEY (cust_id) REFERENCES customers (cust_id));	
 				:- INSERT INTO orders (ord_date, cust_id, price) VALUES ('2024-01-01', 1, 250.00);  
+		H. Index:- mainly used for fast retiral of data based on column which have index.
+			1. Single index
+				Ex.:- create index idx_city(index name) on students(city);
+			2. Composite index
+				Ex.:- create index idx_city_name on students(city,name);
+			3. Unique index
+				Ex.:- create unique index idx_unique_roll on students(roll_no);
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 	3.Clauses: (Conditions)
 		Note: 1. We can use logical opretor for below conditions like and, or and not.
@@ -96,7 +113,7 @@ Sections:
 					- Ex.: select * from employee where dept in('IT','DS');
 					- Ex.: select * from employee where dept not in('IT','DS'); (Other then above qurey result)
 		      4. is null.(IMP)
-		      5. as (ke jesa || to change name of columns).
+		      5. as (ke jesa or to change name of columns).
 		A. Where:- to fetch particular data 
 			 - Ex.: select * from employee where emp_id=2; (return all employee with emp_id 2)
 		B. Between:- to get data from the range
@@ -121,6 +138,19 @@ Sections:
 				Next all Word start with 'A': LIKE '% A%'  
 				--(Matches records where "A" appears anywhere in the conditions field, preceded by a space(" ")(Here))
 				Case-insensitive contains 'john': LIKE '%john%'.
+		H. EXISTS:- checks whether the subquery returns at least one row.
+			Ex.:- select d.dept_name
+				from department d
+				where EXISTS (
+					select 1
+					from emp e
+					where e.dept_id = d.dept_id
+					and e.salary>6000
+				)
+			    As soon as it finds one matching row, it stops (short-circuit)
+			    if any row is present in subquery result_set then exists return true
+		I. IN:- checks whether a value matches any value returned by a subquery or list.
+			this is not stop early, It traverse entire table.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 	4.String Function:
 		 • UPPER() converts the value of a field to uppercase
@@ -241,6 +271,17 @@ Sections:
 	10.SubQuary: 
 			A Subquery or Inner query or a Nested query allows us to create complex query on the output of another query.
 			Ex.:- select * from employee WHERE salary=(select max(salary) from employee ); 
+	Correlated Subquery:- 
+			this is a subquery that depends on outer query for it's value.
+			inner query used columns of outer query.
+			Ex.:- 
+				select name from emp e
+				where salary=(
+					select max(salary)
+					from emp
+					where e.dept_id=dept_id
+				)
+			as inner query is depends on column(dept_id) of outer query.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 	11.1.Case Statement :-
 			    • The CASE expression goes through conditions and returns a value when the first condition is met (like if-then-else 
@@ -321,9 +362,9 @@ Sections:
 	14. Window Function: 
 			     this applies aggregate, ranking and analytic functions over a particular window (set of rows). 
 		             And 'OVER' clause is used with window functions to define that window.
-		  Syntax:- SELECT column_name(s), fun() OVER  ( [ <PARTITION BY Clause> ]
- 								   [ <ORDER BY Clause> ]
- 								   [ <ROW or RANGE Clause> ] )
+		  Syntax:- SELECT column_name(s), fun() OVER  ( [ <PARTITION BY Clause> ],
+ 								[ <ORDER BY Clause>     ],
+ 								[ <ROW or RANGE Clause> ] )
 
 			 1. Select a function :- • Aggregate functions			
  						 • Ranking functions (Analytic numbering functions)		
@@ -375,7 +416,8 @@ Sections:
 		1. Semi-structured data modeling
 		2. Modern data warehouses (BigQuery, Snowflake, Databricks)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-		
+	
+	
 
 
 
